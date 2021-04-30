@@ -9,8 +9,8 @@ class Config(object):
     BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'b1WpmxntrMoIeI1p7kGUzKjVBh4VU3F3+uq+3BYZj51DrOcBZ/+uKBW+Roy1BK9vIxAOGnD1fsT3jsAyvQlu7w=='
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
 
-    SQL_SERVER = os.environ.get('SQL_SERVER') or 'dbserverproject1.database.windows.net'
-    SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'udacityproject1'
+    SQL_SERVER = 'dbserverproject1.database.windows.net'
+    SQL_DATABASE = 'udacityproject1'
     SQL_USER_NAME = os.environ.get('SQL_USER_NAME') or ''
     SQL_PASSWORD = os.environ.get('SQL_PASSWORD') or ''
     # Below URI may need some adjustments for driver version, based on your OS, if running locally
