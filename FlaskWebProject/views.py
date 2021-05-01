@@ -64,7 +64,7 @@ def post(id):
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if current_user.is_authenticated:
-        app.logger.info('User is authenticated')
+        app.logger.info('User is authenticated. Admin Login Successfully.')
         return redirect(url_for('home'))
     form = LoginForm()
     if form.validate_on_submit():
@@ -118,7 +118,7 @@ def logout():
         return redirect(
             Config.AUTHORITY + "/oauth2/v2.0/logout" +
             "?post_logout_redirect_uri=" + url_for("login", _external=True))
-    app.logger.info('Log out')
+    app.logger.info('Log out. Admin logout.')
     return redirect(url_for('login'))
 
 def _load_cache():
