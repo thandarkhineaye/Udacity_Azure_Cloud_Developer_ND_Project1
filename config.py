@@ -10,8 +10,8 @@ class Config(object):
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'images'
 
     SQL_SERVER = 'dbserverproject1.database.windows.net'
-    SQL_DATABASE = 'udacityproject1'
-    SQL_USER_NAME = os.environ.get('SQL_USER_NAME') or 'udacityNanoproject1'
+    SQL_DATABASE = 'udacityNanoproject1'
+    SQL_USER_NAME = os.environ.get('SQL_USER_NAME') or 'udacityproject1'
     SQL_PASSWORD = os.environ.get('SQL_PASSWORD') or '1234567890Tka'
     # Below URI may need some adjustments for driver version, based on your OS, if running locally
     SQLALCHEMY_DATABASE_URI = 'mssql+pyodbc://' + SQL_USER_NAME + '@' + SQL_SERVER + ':' + SQL_PASSWORD + '@' + SQL_SERVER + ':1433/' + SQL_DATABASE  + '?driver=ODBC+Driver+17+for+SQL+Server'
