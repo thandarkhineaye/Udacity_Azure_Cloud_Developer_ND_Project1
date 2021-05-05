@@ -51,8 +51,8 @@ The following are the estimation and comparison for App Service and Virtual mach
         <td>¥4,529.59</td>
     </tr>
 </table><br>
----------------------------------------------------------------	<br>
-<b><i>Cost Estimation for using App Service:</b></i><br>
+
+<b><i>Cost Estimation for using Virtual Machine:</b></i><br>
 --------------------------------------------------------------<br>
 <table>
     <tr>
