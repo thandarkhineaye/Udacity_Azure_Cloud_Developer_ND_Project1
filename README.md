@@ -43,11 +43,11 @@ The following are the estimation and comparison for App Service and Virtual mach
         <td>¥2,356.48</td>
     </tr>
     <tr>
-        <td colspan="3">Licensing Program</td>
+        <td colspan="4">Licensing Program</td>
         <td>Microsoft Online Services Agreement</td>
     </tr>
     <tr>
-        <td colspan="3"><b>Total</b></td>
+        <td colspan="4"><b>Total</b></td>
         <td>¥4,529.59</td>
     </tr>
 </table>
