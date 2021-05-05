@@ -20,12 +20,12 @@ The following are the estimation and comparison for App Service and Virtual mach
 <b><i>Estimation for using App Service:</b></i>
 --------------------------------------------------------------
 <table>
-    <th>
+    <tr>
         <td>Service type</td>
         <td>Region</td>
         <td>Description</td>
         <td>Estimated monthly cost</td>
-    </th>
+    </tr>
     <tr>
         <td>Azure SQL Database</td>
         <td>Japan East</td>
