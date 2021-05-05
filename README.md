@@ -52,8 +52,8 @@ The following are the estimation and comparison for App Service and Virtual mach
     </tr>
 </table><br>
 ---------------------------------------------------------------	<br>
-<b><i>Cost Estimation for using App Service:</b></i>
---------------------------------------------------------------
+<b><i>Cost Estimation for using App Service:</b></i><br>
+--------------------------------------------------------------<br>
 <table>
     <tr>
         <td>Service type</td>
@@ -85,20 +85,9 @@ The following are the estimation and comparison for App Service and Virtual mach
         <td colspan="3"><b>Total</b></td>
         <td>¥4,780.47</td>
     </tr>
-</table>
----------------------------------------------------------------	
+</table><br>
+---------------------------------------------------------------	<br>
 
-Estimation for using Virtual Machine service:	
----------------------------------------------------------------		
-Service type	       |Region	    |Description	                    |Estimated monthly cost
-Azure SQL Database		Japan East	 Single Database,Basic Tier            ¥619.67
-Virtual Machines		Japan East	 Basic Tier; Linux OS	               ¥1,804.32
-Storage Accounts		Japan East	 1 A0 ; Linux – Ubuntu; Pay as you go; ¥2,356.48
-Support			                     Support	                           ¥0.00
-			                         Licensing Program	                   Microsoft Online Services Agreement
-                                     Total	                               ¥4,780.47
----------------------------------------------------------------	
-
-In my opinion, The development of app is much simpler and faster in Azure App Service.
-Azure App Services do not offer Pay-as-you-Go but it was still flexible for me.
-I want to deploy with github this time, that's why I chose App service to deploy this project.
+In my opinion, The development of app is much simpler and faster in Azure App Service.<br>
+Azure App Services do not offer Pay-as-you-Go but it was still flexible for me.<br>
+I want to deploy with github this time, that's why I chose App service to deploy this project.<br>
