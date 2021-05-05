@@ -1,7 +1,7 @@
 <h1>Cloud Developer using Microsoft Azure</h1><br>
-<h3>Udacity Nano Degree Project 1 : Deploy An Article CMS to Azure</h3>
+<h3>Udacity Nano Degree Project 1 : Deploy An Article CMS to Azure</h3><br>
 
-<h5>Project Overview</h5>
+<h5>Project Overview</h5><br>
 This is a simple Content Management System (CMS) for articles, where a user can log in, view published articles, and publish new articles. <br>
 An article consists of a title, author, and body of text(to be stored in an Azure SQL Server) along with an image (to be stored in Azure Blob Storage).<br>
 Body of text and upload image are to be stored in Azure SQL Server and Blob Storage.<br><br>
@@ -17,8 +17,8 @@ For this, I used Azure cost estimation calculator for my web app.<br>
 Currently, I am in Japan, so I used Japan yen for currency.<br>
 The following are the estimation and comparison for App Service and Virtual machine monthly.<br><br>
 
-<b><i>Cost Estimation for using App Service:</b></i>
---------------------------------------------------------------
+<b><i>Cost Estimation for using App Service:</b></i><br>
+--------------------------------------------------------------<br>
 <table>
     <tr>
         <td>Service type</td>
